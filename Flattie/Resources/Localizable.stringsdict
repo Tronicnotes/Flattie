@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>quantity_bottles</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@bottlesValue@</string>
+        <key>bottlesValue</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>u</string>
+            <key>one</key>
+            <string>1 btl</string>
+            <key>other</key>
+            <string>%u btls</string>
+        </dict>
+    </dict>
+    <key>quantity_bunches</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@bunchesValue@</string>
+        <key>bunchesValue</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>u</string>
+            <key>one</key>
+            <string>1 bunch</string>
+            <key>other</key>
+            <string>%u bunches</string>
+        </dict>
+    </dict>
+    <key>quantity_cans</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@cansValue@</string>
+        <key>cansValue</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>u</string>
+            <key>one</key>
+            <string>1 can</string>
+            <key>other</key>
+            <string>%u cans</string>
+        </dict>
+    </dict>
+    <key>quantity_cups</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@cupsValue@</string>
+        <key>cupsValue</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>u</string>
+            <key>one</key>
+            <string>1 cup</string>
+            <key>other</key>
+            <string>%u cups</string>
+        </dict>
+    </dict>
+    <key>quantity_trays</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@traysValue@</string>
+        <key>traysValue</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>u</string>
+            <key>one</key>
+            <string>1 tray</string>
+            <key>other</key>
+            <string>%u trays</string>
+        </dict>
+    </dict>
+</dict>
+</plist>
